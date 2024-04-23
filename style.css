@@ -1,0 +1,244 @@
+/* Todas as paginas */
+body{
+    margin: 0;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+   
+}
+
+header{
+    text-align: center;
+    color: white;
+    background:linear-gradient(black, #a31106);
+    
+}
+
+#titulo{
+    font-size: 2.5rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    margin: 0px 100px 0 100px;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    padding: 2px;
+    
+}
+
+nav ul li a{
+    color: white;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    background:linear-gradient(#a31106, black);
+    padding: 40px;
+}
+
+
+
+/* Pagina Inicial pag1 */
+
+#subTitulo{
+    text-align: center;
+    color: #a31106;
+}
+
+p{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 20px;   
+}
+
+#img1{
+    height: 450px ;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+/* Sobre o Projeto pag2 */
+
+h2{
+    text-align: center;
+}
+
+.img-carousel {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 40rem;
+    margin: 0 auto;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card h4 {
+    text-align: center;
+  } 
+
+  .accordion {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .video-container {
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 0 auto;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+  }
+/* pag3 */
+
+#form{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 12px;
+    place-items: center;
+    display: grid;
+
+}
+button {
+    padding: 8px;
+    width: 5%;
+
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        width: 30%;
+    }
+}
+
+#section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #titulo {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        margin: 0px 50px 0 50px;
+        font-size: 1rem;
+    }
+
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1rem;
+    }
+
+    #img1 {
+        height: 300px;
+        width: 400px;
+    }
+
+    
+
+    #form {
+        width: 60%;
+    }
+
+    #section {
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    #titulo {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0px 20px 0 20px;
+        font-size: 0.8rem;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 0.8rem;
+    }
+
+    #img1 {
+        height: 200px;
+        width: 300px;
+    }
+
+    
+
+    #form {
+        width: 80%;
+    }
+
+    #section {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+   
+}
